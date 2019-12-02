@@ -1,0 +1,38 @@
+.main {
+    font-size: larger;
+    color: white;
+    
+}
+
+.menu-title {
+    width: 240px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #f65040;
+    text-align: center;
+} S
+
+.menu-title-content {
+    width: 200px;
+    float: left;
+    margin:10px
+
+}
+
+.triangle {
+    float: right;
+    margin: 10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: white;
+}
+
+.menu-list {
+    width: 200px;
+    margin: 0 auto;
+    background-color: #f65040;
+    list-style-type: none;
+}
+
+
