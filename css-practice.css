@@ -1,5 +1,9 @@
+* {
+    margin: 0;
+    border: 0;
+}
 .main {
-    font-size: larger;
+    font-size: large;
     color: white;
     
 }
@@ -10,16 +14,15 @@
     margin: 0 auto;
     background-color: #f65040;
     text-align: center;
-} S
+    border-radius: 10px;
+} 
 
 .menu-title-content {
-    width: 200px;
-    float: left;
-    margin:10px
 
+    float: left;
 }
 
-.triangle {
+.triangle-top {
     float: right;
     margin: 10px;
     width: 0;
@@ -27,12 +30,27 @@
     border: 10px solid transparent;
     border-top-color: white;
 }
+.triangle-bottom {
+    margin-left: 330px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #f65040;
+
+}
 
 .menu-list {
     width: 200px;
     margin: 0 auto;
     background-color: #f65040;
     list-style-type: none;
+    border-radius: 10px;
+}
+.menu-list-content {
+    width: 150px;
+    height:30px;
+
+
 }
 
 
