@@ -10,8 +10,8 @@
 }
 
 .menu-title {
-    width: 230px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     margin: 0 auto;
     background-color: #f65040;
     text-align: center;
@@ -20,8 +20,9 @@
 
 .menu-title-content {
     float: left;
+    padding-top: 10px;
     margin-left:30px;
-    margin-top:8px;
+    margin-top:2px;
 }
 
 .triangle-top {
@@ -29,32 +30,74 @@
     margin: 20px;
     width: 0;
     height: 0;
-    border: 8px solid transparent;
+    border: 10px solid transparent;
     border-top-color: white;
 }
+
+
 .triangle-bottom {
-    margin-left: 448px;
+    position: relative;
+    top:-58px;
+    left: 210px;
     width: 0;
     height: 0;
-    border: 8px solid transparent;
-    border-bottom-color: #f65040;
+    border: 10px solid transparent;
+    border-bottom-color:  #f65040;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
+.main:hover  .menu-list{
+    display: block;
+}
+
+
 .menu-list {
-    width: 190px;
-    margin: 0 auto;
+    width: 250px;
+    margin:0 auto;
+    margin-top: 20px;
+    padding:0;
     background-color: #f65040;
     list-style-type: none;
     border-radius: 3px;
 }
 .menu-list-content {
-    width: 150px;
-    height:30px;
+    width: 250px;
+    height:50px;
+    border-bottom: 0.2px #f9eaea solid;
 }
-.background1{
+.content-left1{
+    width: 70px;
+    height: 50px;
+    float: left;
     background-image: url("bg.png");
-    background-size: contain;
-    background-position: 0% 50%;
     background-repeat: no-repeat;
+    background-size: 150px 120px;
+    background-position: 20px -50px;
+}
+.content-left2{
+    width: 70px;
+    height: 50px;
+    float: left;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 150px 120px;
+    background-position: -44px 5px;
+}
+.content-left3{
+    width: 70px;
+    height: 50px;
+    float: left;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 150px 120px;
+    background-position: 20px 5px;
+}
+
+
+.content-text{
+    padding-top: 15px;
 }
 
