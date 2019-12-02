@@ -3,54 +3,58 @@
     border: 0;
 }
 .main {
+    margin-top: 20px;
     font-size: large;
     color: white;
     
 }
 
 .menu-title {
-    width: 240px;
+    width: 230px;
     height: 40px;
     margin: 0 auto;
     background-color: #f65040;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 3px;
 } 
 
 .menu-title-content {
-
     float: left;
+    margin-left:30px;
+    margin-top:8px;
 }
 
 .triangle-top {
     float: right;
-    margin: 10px;
+    margin: 20px;
     width: 0;
     height: 0;
-    border: 10px solid transparent;
+    border: 8px solid transparent;
     border-top-color: white;
 }
 .triangle-bottom {
-    margin-left: 330px;
+    margin-left: 448px;
     width: 0;
     height: 0;
-    border: 10px solid transparent;
+    border: 8px solid transparent;
     border-bottom-color: #f65040;
-
 }
 
 .menu-list {
-    width: 200px;
+    width: 190px;
     margin: 0 auto;
     background-color: #f65040;
     list-style-type: none;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 .menu-list-content {
     width: 150px;
     height:30px;
-
-
 }
-
+.background1{
+    background-image: url("bg.png");
+    background-size: contain;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+}
 
