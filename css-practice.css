@@ -3,23 +3,21 @@
     border: 0;
 }
 
-.menu {
+.menu-bar {
     margin-top: 20px;
     font-size: large;
-    font-family: Lato;
+    font-family: Lato, serif;
     color: white;
-    
 }
 
 .menu-title {
     width: 250px;
     height: 50px;
     margin: 0 auto;
-    border-radius: 5px;  
+    border-radius: 5px;
     text-align: center;
     background-color: #f65040;
-  
-} 
+}
 
 .menu-title-content {
     float: left;
@@ -29,7 +27,7 @@
 }
 
 .triangle-top {
-    float: right; 
+    float: right;
     width: 0;
     height: 0;
     margin: 20px;
@@ -44,10 +42,10 @@
     top: -56px;
     left: 210px;
     border: 10px solid transparent;
-    border-bottom-color:  #f65040;
+    border-bottom-color: #f65040;
 }
 
-.menu-title:hover  + .menu-list {
+.menu-title:hover+.menu-list {
     display: block;
 }
 
@@ -59,7 +57,7 @@
     padding: 0;
     border-radius: 5px;
     background-color: #f65040;
-    list-style-type: none;    
+    list-style-type: none;
 }
 
 .menu-list-content {
@@ -68,37 +66,24 @@
     border-bottom: 1px #f9eaea solid;
 }
 
-.img1 {
+.icon {
     width: 70px;
     height: 50px;
     float: left;
-    background: url("bg.png");
-    background-repeat: no-repeat;
-    background-size: 150px 120px;
-    background-position: 20px -50px;
 }
 
-.img2 {
-    width: 70px;
-    height: 50px;
-    float: left;
-    background-image: url("bg.png");
-    background-repeat: no-repeat;
-    background-size: 150px 120px;
-    background-position: -44px 5px;
+.icon-heart {
+    background: url("bg.png") no-repeat 20px -50px /150px 120px;
 }
 
-.img3 {
-    width: 70px;
-    height: 50px;
-    float: left;
-    background-image: url("bg.png");
-    background-repeat: no-repeat;
-    background-size: 150px 120px;
-    background-position: 20px 5px;
+.icon-star {
+    background: url("bg.png") no-repeat -44px 5px / 150px 120px;
 }
 
-.text {
+.icon-msg {
+    background: url("bg.png") no-repeat 20px 5px / 150px 120px;
+}
+
+.menu-text {
     padding-top: 15px;
 }
-
